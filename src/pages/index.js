@@ -8,7 +8,7 @@ const IndexPage = () => (
     <h1>Hi people</h1>
     <p>Welcome to the new Scout Badges app </p>
       <ul>
-          <li><Link to="/explorers/core/membership/">Explorer Membership</Link></li>
+          <li><Link to="/badges/explorers/core/membership/">Explorer Membership</Link></li>
       </ul>
   </Layout>
 )
