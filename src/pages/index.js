@@ -6,9 +6,10 @@ import Layout from '../components/layout'
 const IndexPage = () => (
   <Layout>
     <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <p>Welcome to the new Scout Badges app </p>
+      <ul>
+          <li><Link to="/explorers/core/membership/">Explorer Membership</Link></li>
+      </ul>
   </Layout>
 )
 

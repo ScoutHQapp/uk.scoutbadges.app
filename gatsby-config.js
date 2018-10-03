@@ -1,14 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Scout Badges UK',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+      `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'UK Scout Badges App',
-        short_name: 'UK Scout Badges',
+        short_name: 'ScoutBadges',
         start_url: '/',
         background_color: '#7413dc',
         theme_color: '#7413dc',
@@ -17,5 +18,13 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+            path: `${__dirname}/src/pages`,
+            name: "markdown-pages",
+        },
+    },
+    `gatsby-transformer-remark`,
   ],
 }
