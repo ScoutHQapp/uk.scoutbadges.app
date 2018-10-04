@@ -6,6 +6,7 @@ import Layout from '../components/layout'
 class IndexPage extends React.Component {
     render() {
         const coreBadges = this.props.data.coreBadges.edges
+        const challengeBadges = this.props.data.challengeBadges.edges
         const activityBadges = this.props.data.activityBadges.edges
         const stagedBadges = this.props.data.stagedBadges.edges
 
@@ -15,6 +16,16 @@ class IndexPage extends React.Component {
               <h2>Core Badges</h2>
               <ul>
                   {coreBadges.map(badge => (
+                      <li key={badge.node.fields.slug}>
+                          <Link to={badge.node.fields.slug}>
+                              {badge.node.frontmatter.title}
+                          </Link>
+                      </li>
+                  ))}
+              </ul>
+              <h2>Chief Scout's Gold Award</h2>
+              <ul>
+                  {challengeBadges.map(badge => (
                       <li key={badge.node.fields.slug}>
                           <Link to={badge.node.fields.slug}>
                               {badge.node.frontmatter.title}
@@ -54,6 +65,21 @@ query {
     coreBadges: allMarkdownRemark(
       limit: 2000
       filter: { frontmatter: { section: { eq: "scouts" } type: { eq: "core" } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
+    challengeBadges: allMarkdownRemark(
+      limit: 2000
+      filter: { frontmatter: { section: { eq: "scouts" } type: { eq: "challenge" } } }
     ) {
       edges {
         node {
