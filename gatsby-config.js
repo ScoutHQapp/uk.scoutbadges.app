@@ -45,6 +45,14 @@ module.exports = {
               siteSpeedSampleRate: 10,
               cookieDomain: "uk.scoutbadges.app",
           },
+      },
+      {
+          resolve: `gatsby-plugin-google-fonts`,
+          options: {
+              fonts: [
+                  `Nunito Sans\:300,400,400i,700` // you can also specify font weights and styles
+              ]
+          }
       }
   ],
 }
