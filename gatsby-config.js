@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Scout Badges UK',
+    title: 'Scout Badges',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

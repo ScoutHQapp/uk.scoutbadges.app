@@ -25,6 +25,7 @@ class IndexPage extends React.Component {
               </ul>
               <h2>Chief Scout's Gold Award</h2>
               <ul>
+                  <li><Link to={"/badges/scouts/award/gold"}>Chief Scout's Gold Award</Link></li>
                   {challengeBadges.map(badge => (
                       <li key={badge.node.fields.slug}>
                           <Link to={badge.node.fields.slug}>
@@ -63,8 +64,9 @@ export default IndexPage
 export const pageQuery = graphql`
 query {
     coreBadges: allMarkdownRemark(
-      limit: 2000
-      filter: { frontmatter: { section: { eq: "scouts" } type: { eq: "core" } } }
+      limit: 2000,
+      filter: { frontmatter: { section: { eq: "scouts" } type: { eq: "core" } } },
+      sort: {fields: [frontmatter___title], order: ASC},
     ) {
       edges {
         node {
@@ -78,8 +80,9 @@ query {
       }
     }
     challengeBadges: allMarkdownRemark(
-      limit: 2000
-      filter: { frontmatter: { section: { eq: "scouts" } type: { eq: "challenge" } } }
+      limit: 2000,
+      filter: { frontmatter: { section: { eq: "scouts" } type: { eq: "challenge" } } },
+      sort: {fields: [frontmatter___title], order: ASC},
     ) {
       edges {
         node {
@@ -93,8 +96,9 @@ query {
       }
     }
     activityBadges: allMarkdownRemark(
-      limit: 2000
-      filter: { frontmatter: { section: { eq: "scouts" } type: { eq: "activity" } } }
+      limit: 2000,
+      filter: { frontmatter: { section: { eq: "scouts" } type: { eq: "activity" } } },
+      sort: {fields: [frontmatter___title], order: ASC},
     ) {
       edges {
         node {
@@ -108,8 +112,9 @@ query {
       }
     }
     stagedBadges: allMarkdownRemark(
-      limit: 2000
-      filter: { frontmatter: { type: { eq: "staged" } } }
+      limit: 2000,
+      filter: { frontmatter: { type: { eq: "staged" } } },
+      sort: {fields: [frontmatter___title], order: ASC},
     ) {
       edges {
         node {
