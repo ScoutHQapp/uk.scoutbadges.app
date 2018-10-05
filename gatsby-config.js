@@ -29,32 +29,24 @@ module.exports = {
         `gatsby-transformer-remark`,
         `gatsby-plugin-sitemap`,
         {
-            resolve: `gatsby-plugin-google-analytics`,
+            resolve: `gatsby-plugin-gtag`,
             options: {
-                trackingId: "UA-126973909-1",
-                // Puts tracking script in the head instead of the body
-                head: false,
-                // Setting this parameter is optional
+                // your google analytics tracking id
+                trackingId: `UA-126973909-1`,
+                // enable ip anonymization
                 anonymize: true,
-                // Setting this parameter is also optional
-                respectDNT: true,
-                // Avoids sending pageview hits from custom paths
-                //exclude: ["/preview/**", "/do-not-track/me/too/"],
-                // Enables Google Optimize using your container Id
-                //optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
-                // Any additional create only fields (optional)
-                sampleRate: 5,
-                siteSpeedSampleRate: 10,
-                cookieDomain: "uk.scoutbadges.app",
             },
         },
         {
-            resolve: `gatsby-plugin-google-fonts`,
+            resolve: `gatsby-plugin-prefetch-google-fonts`,
             options: {
                 fonts: [
-                    `Nunito Sans\:300,400,400i,700` // you can also specify font weights and styles
-                ]
-            }
+                    {
+                        family: `Nunito Sans`,
+                        variants: [`300`, `400`, `700`]
+                    },
+                ],
+            },
         },
         {
             resolve: 'gatsby-plugin-robots-txt',
