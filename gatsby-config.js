@@ -9,7 +9,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'UK Scout Badges App',
-        short_name: 'ScoutBadges',
+        short_name: 'Scout Badges',
         start_url: '/',
         background_color: '#7413dc',
         theme_color: '#7413dc',
