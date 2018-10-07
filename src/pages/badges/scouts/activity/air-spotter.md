@@ -8,8 +8,6 @@ These badge requirements were updated in January 2018. The previous badge requir
 
 The Aircraft Recognition List was updated in June 2018. The old list can still be used until 31 May 2019, to allow for transition where necessary. 
 
-How to earn your badge
-
 1. Learn to recognise 38 out of the 50 aircraft listed in The Scout Association’s Aircraft Recognition List.
 2. Complete one of these activities:
    * By yourself or with another Scout, take photographs or collect pictures of at least 10 different aircraft types. Name the different types and their uses.
