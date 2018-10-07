@@ -36,6 +36,17 @@ section: scouts
 |  2     | 0.80m     | 2.45m     | 2.80m    | 8.5m   | 15.0m        |
 |  1     | 0.75m     | 2.10m     | 1.80m    | 6.0 m  | 10.0m        |
 
+Minimum points fo the award of the badge
+
+| Age      | Points |
+|----------|--------|
+| Under 11 | 6      |
+| Under 12 | 9      |
+| Under 13 | 13     |
+| Under 14 | 17     |
+| Under 15 | 22     |
+
+
 ## Guidance for leaders
 
 * Ideally young people should work towards this badge as part of a Scout activity. If that is not possible, they may use timings or distances they have achieved at school or other athletic events. A teacher or athletics coach can confirm these timings.
