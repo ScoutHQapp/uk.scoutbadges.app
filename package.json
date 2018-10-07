@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "uk-scoutbadges-app",
+  "description": "UK Scout Badges App",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "David Kitchen <scouts@dwkitchen.com>",
   "dependencies": {
     "gatsby": "^2.0.0",
     "gatsby-plugin-catch-links": "^2.0.3",
@@ -35,6 +35,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/scoutr/uk.scoutbadges.app"
   }
 }
