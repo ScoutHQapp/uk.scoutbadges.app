@@ -15,7 +15,7 @@ class IndexPage extends React.Component {
             <h1>Scouts</h1>
               <ul>
                   <li><Link to={"promise/scout-promise"}>The Scout Promise</Link></li>
-                  <li><Link to={"promise/scout-promise"}>The Scout Law</Link></li>
+                  <li><Link to={"promise/scout-law"}>The Scout Law</Link></li>
               </ul>
               <h2>Core Badges</h2>
               <ul>

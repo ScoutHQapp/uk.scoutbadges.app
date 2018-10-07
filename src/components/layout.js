@@ -23,8 +23,8 @@ const Layout = ({ children }) => (
                 <Helmet
                     title={data.site.siteMetadata.title}
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'description', content: 'All the requirements for UK Scout Badges' },
+                        { name: 'keywords', content: 'scouts' },
                         {name: 'google-site-verification', content: 'kLoDBiTpAOAkT_n3T1ENlneIpuVnGdMmJULrzTTCYn0'},
                     ]}
                 >

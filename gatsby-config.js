@@ -11,7 +11,7 @@ module.exports = {
             options: {
                 name: 'UK Scout Badges App',
                 short_name: 'Scout Badges',
-                start_url: '/',
+                start_url: '/?utm_source=homescreen',
                 background_color: '#7413dc',
                 theme_color: '#7413dc',
                 display: 'standalone',
