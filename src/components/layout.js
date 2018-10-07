@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+import CookieBanner from 'react-cookie-banner'
 
 import Header from './header'
 import './layout.css'
@@ -29,6 +30,10 @@ const Layout = ({ children }) => (
                 >
                     <html lang="en" />
                 </Helmet>
+                <CookieBanner
+                        message="We use Google Analytics"
+                        onAccept={() => {}}
+                        cookie="user-has-accepted-cookies" />
                 <Header siteTitle={data.site.siteMetadata.title} />
                 <div
                     style={{
