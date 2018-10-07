@@ -41,6 +41,6 @@ section: scouts
 * Ideally young people should work towards this badge as part of a Scout activity. If that is not possible, they may use timings or distances they have achieved at school or other athletic events. A teacher or athletics coach can confirm these timings.
 * For the field events, we recommend the shot weighs around 2.73kg, the discus 1kg and the cricket ball 0.135kg
 
-**Young people must be especially careful when doing the high jump. They will have to think about the way they are going to jump, land and what they are going to land on. **
+**Young people must be especially careful when doing the high jump. They will have to think about the way they are going to jump, land and what they are going to land on.**
 
 They must use proper equipment at all times and unless expert tuition and supervision is available they must not attempt the Fosbury Flop. The scissor jump is an easier way to do it. 
