@@ -7,6 +7,7 @@ class IndexPage extends React.Component {
     render() {
         return (
           <Layout>
+              <p>You have reached the beta version of the Scout Badges App.</p>
               <ul>
                   <li>Beavers</li>
                   <li>Cubs</li>
@@ -14,6 +15,7 @@ class IndexPage extends React.Component {
                   <li>Explorers</li>
                   <li>Network</li>
               </ul>
+              <p>All Badge Content Copyright The Scout Association 2018.</p>
           </Layout>
       )
     }
