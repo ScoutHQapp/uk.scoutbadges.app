@@ -1,5 +1,5 @@
 ---
-title: "Navigator Staged Activity Badge"
+title: "Navigator"
 type: "staged"
 ---
 

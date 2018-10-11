@@ -1,5 +1,5 @@
 ---
-title: "Hikes Away Staged Activity Badge"
+title: "Hikes Away"
 type: "staged"
 ---
 

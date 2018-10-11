@@ -1,5 +1,5 @@
 ---
-title: "Nights Away Staged Activity Badge"
+title: "Nights Away"
 type: "staged"
 ---
 

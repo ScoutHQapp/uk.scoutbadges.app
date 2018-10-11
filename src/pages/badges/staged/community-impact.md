@@ -1,5 +1,5 @@
 ---
-title: "Community Impact Staged Activity Badge"
+title: "Community Impact"
 type: "staged"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Swimmer Staged Activity Badge"
+title: "Swimmer"
 type: "staged"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Air Activities Staged Activity Badge"
+title: "Air Activities"
 type: "staged"
 ---
 

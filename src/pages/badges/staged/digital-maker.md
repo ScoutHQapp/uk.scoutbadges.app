@@ -1,5 +1,5 @@
 ---
-title: Digital Maker Staged Activity Badge
+title: Digital Maker
 type: staged
 ---
 

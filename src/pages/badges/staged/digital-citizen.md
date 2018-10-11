@@ -1,5 +1,5 @@
 ---
-title: Digital Citizen Staged Activity Badge
+title: Digital Citizen
 type: staged
 ---
 

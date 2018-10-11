@@ -1,5 +1,5 @@
 ---
-title: "Sailing Staged Activity Badge"
+title: "Sailing"
 type: "staged"
 ---
 

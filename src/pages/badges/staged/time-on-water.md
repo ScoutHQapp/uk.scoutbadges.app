@@ -1,5 +1,5 @@
 ---
-title: "Time on the Water Staged Activity Badge"
+title: "Time on the Water"
 type: "staged"
 ---
 

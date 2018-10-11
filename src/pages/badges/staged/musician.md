@@ -1,5 +1,5 @@
 ---
-title: "Musician Staged Activity Badge"
+title: "Musician"
 type: "staged"
 ---
 

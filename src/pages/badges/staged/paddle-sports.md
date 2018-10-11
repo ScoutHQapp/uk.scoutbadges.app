@@ -1,5 +1,5 @@
 ---
-title: "Paddle Sports Staged Activity Badge"
+title: "Paddle Sports"
 type: "staged"
 ---
 

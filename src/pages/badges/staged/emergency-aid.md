@@ -1,5 +1,5 @@
 ---
-title: "Emergancy Aid Staged Activity Badge"
+title: "Emergancy Aid"
 type: "staged"
 ---
 

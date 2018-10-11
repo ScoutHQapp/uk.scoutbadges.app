@@ -1,5 +1,5 @@
 ---
-title: "Snowsports Staged Activity Badge"
+title: "Snowsports"
 type: "staged"
 ---
 
