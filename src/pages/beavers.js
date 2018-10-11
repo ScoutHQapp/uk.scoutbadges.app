@@ -12,10 +12,9 @@ class IndexPage extends React.Component {
 
         return (
           <Layout>
-            <h1>Cubs</h1>
+            <h1>Beavers</h1>
               <ul>
-                  <li><Link to={"/promise/cub-promise"}>The Cub Scout Promise</Link></li>
-                  <li><Link to={"/promise/cub-law"}>The Cub Scout Law</Link></li>
+                  <li><Link to={"/promise/beaver-promise"}>The Cub Scout Promise</Link></li>
               </ul>
               <h2>Core Badges</h2>
               <ul>
@@ -27,9 +26,9 @@ class IndexPage extends React.Component {
                       </li>
                   ))}
               </ul>
-              <h2>Chief Scout's Silver Award</h2>
+              <h2>Chief Scout's Bronze Award</h2>
               <ul>
-                  <li><Link to={"/badges/cubs/award/silver"}>Chief Scout's Silver Award</Link></li>
+                  <li><Link to={"/badges/beavers/award/bronze"}>Chief Scout's Bronze Award</Link></li>
                   {challengeBadges.map(badge => (
                       <li key={badge.node.fields.slug}>
                           <Link to={badge.node.fields.slug}>
@@ -69,7 +68,7 @@ export const pageQuery = graphql`
 query {
     coreBadges: allMarkdownRemark(
       limit: 2000,
-      filter: { frontmatter: { section: { eq: "cubs" } type: { eq: "core" } } },
+      filter: { frontmatter: { section: { eq: "beavers" } type: { eq: "core" } } },
       sort: {fields: [frontmatter___title], order: ASC},
     ) {
       edges {
@@ -85,7 +84,7 @@ query {
     }
     challengeBadges: allMarkdownRemark(
       limit: 2000,
-      filter: { frontmatter: { section: { eq: "cubs" } type: { eq: "challenge" } } },
+      filter: { frontmatter: { section: { eq: "beavers" } type: { eq: "challenge" } } },
       sort: {fields: [frontmatter___title], order: ASC},
     ) {
       edges {
@@ -101,7 +100,7 @@ query {
     }
     activityBadges: allMarkdownRemark(
       limit: 2000,
-      filter: { frontmatter: { section: { eq: "cubs" } type: { eq: "activity" } } },
+      filter: { frontmatter: { section: { eq: "beavers" } type: { eq: "activity" } } },
       sort: {fields: [frontmatter___title], order: ASC},
     ) {
       edges {
