@@ -12,7 +12,7 @@ class IndexPage extends React.Component {
                   <li>Beavers</li>
                   <li>Cubs</li>
                   <li><Link to={"/scouts/"}>Scouts</Link></li>
-                  <li>Explorers</li>
+                  <li><Link to={"/explorers/"}>Explorers</Link></li>
                   <li>Network</li>
               </ul>
               <p>All Badge Content Copyright The Scout Association 2018.</p>
