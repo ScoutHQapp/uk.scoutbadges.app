@@ -1,5 +1,5 @@
 ---
-title: Equestrian Conservation
+title: Equestrian
 type: activity
 section: scouts
 ---

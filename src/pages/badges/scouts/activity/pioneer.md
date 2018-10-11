@@ -1,5 +1,5 @@
 ---
-title: Pioneer Recreation
+title: Pioneer
 type: activity
 section: scouts
 ---
