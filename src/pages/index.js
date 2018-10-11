@@ -10,7 +10,7 @@ class IndexPage extends React.Component {
               <p>You have reached the beta version of the Scout Badges App.</p>
               <ul>
                   <li>Beavers</li>
-                  <li>Cubs</li>
+                  <li><Link to={"/cubs/"}>Cubs</Link></li>
                   <li><Link to={"/scouts/"}>Scouts</Link></li>
                   <li><Link to={"/explorers/"}>Explorers</Link></li>
                   <li>Network</li>
