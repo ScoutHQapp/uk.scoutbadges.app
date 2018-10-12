@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import YouTube from 'react-youtube-embed'
 
 import Layout from '../components/layout'
 
@@ -16,6 +17,16 @@ class IndexPage extends React.Component {
                   <li><Link to={"/explorers/"}>Explorers</Link></li>
                   <li>Network</li>
               </ul>
+
+              <h2>Install on iOS</h2>
+              <div>
+                <YouTube id="5nlmv2i301U" />
+              </div>
+              <h2>Roadmap</h2>
+              <ol>
+                  <li>Add iOS Navigation</li>
+                  <li>Add badge images</li>
+              </ol>
               <p>All Badge Content Copyright The Scout Association 2018.</p>
           </Layout>
       )

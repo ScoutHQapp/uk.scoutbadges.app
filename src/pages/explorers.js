@@ -3,7 +3,7 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 
-class IndexPage extends React.Component {
+class ExplorersPage extends React.Component {
     render() {
         const coreBadges = this.props.data.coreBadges.edges
         const activityBadges = this.props.data.activityBadges.edges
@@ -57,7 +57,7 @@ class IndexPage extends React.Component {
     }
 }
 
-export default IndexPage
+export default ExplorersPage
 
 export const pageQuery = graphql`
 query {
