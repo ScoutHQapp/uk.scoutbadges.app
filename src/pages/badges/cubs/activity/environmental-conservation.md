@@ -1,5 +1,5 @@
 ---
-title: Entertainer
+title: Environmental Conservation
 section: cubs
 type: activity
 ---

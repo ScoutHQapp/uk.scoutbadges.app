@@ -1,5 +1,5 @@
 ---
-title: Entertainer
+title: Equestrian
 section: cubs
 type: activity
 ---
