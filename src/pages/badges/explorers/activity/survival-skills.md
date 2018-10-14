@@ -1,5 +1,5 @@
 ---
-title: Street Sports
+title: Survival Skills
 type: activity
 section: explorers
 ---
