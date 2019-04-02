@@ -19,7 +19,7 @@ class IndexPage extends React.Component {
               </ul>
 
               <h2>Install on Android</h2>
-              <p>Open in Chrome (not Facebook Browser etc.), Tap on "Add to Home screen"
+              <p>Open in Chrome (not Facebook Browser etc.), Tap on "Add to Home screen"</p>
               <h2>Install on iOS</h2>
               <div>
                 <YouTube id="5nlmv2i301U" />
